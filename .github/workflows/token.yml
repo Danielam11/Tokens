@@ -17,9 +17,7 @@ jobs:
       # Checkout del código
       - name: Checkout code
         uses: actions/checkout@v3
-      # Este paso utiliza la acción oficial actions/checkout en su versión 3.
-      # Clona el código fuente del repositorio en el runner para que pueda ser utilizado por otros pasos.
-      # Uso del GITHUB_TOKEN
+      
       - name: Use PATH_SECRET
       # Ejecuta el comando curl para realizar una llamada a la API de GitHub.
         run: |
